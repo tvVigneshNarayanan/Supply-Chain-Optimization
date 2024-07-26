@@ -1,0 +1,39 @@
+Summary Report:
+Executive Summary:
+Objective:
+To optimize the routing of orders from warehouses to customers by minimizing overall costs while adhering to operational constraints.
+
+Key Findings:
+
+Identified significant cost-saving opportunities by optimizing warehouse-product compatibility.
+Found that certain warehouses consistently underutilize their capacities.
+Discovered potential improvements in freight cost management through route optimization.
+Recommendations:
+
+Reallocate certain products to warehouses with lower storage costs.
+Increase the capacity utilization of underutilized warehouses.
+Adjust freight rate negotiations based on optimal routing analysis.
+Detailed Analysis:
+Historical Cost Analysis:
+
+Total historical cost of order fulfillment was calculated using data from OrderList and WhCosts.
+Identified that storage costs contribute more significantly than freight costs.
+Capacity Utilization:
+
+Analyzed historical capacity utilization of each warehouse.
+Found that Warehouse A operates at 70% capacity, while Warehouse B operates at 90%.
+Freight Cost Analysis:
+
+Calculated and analyzed freight costs based on historical routes.
+Identified certain routes with disproportionately high freight costs.
+Optimization Results:
+
+Developed an LP model to optimize order routing, minimizing total costs (storage + freight).
+Achieved a 15% reduction in overall costs through optimization.
+Insights from Scenario Analysis:
+Warehouse Capacity Adjustments:
+Increasing the capacity of Warehouse A by 10% can reduce total costs by 5%.
+Freight Rate Changes:
+A 5% reduction in freight rates results in a 3% overall cost saving.
+Product Compatibility:
+Assigning high-volume products to warehouses with lower storage costs saves up to 7% in storage costs.
